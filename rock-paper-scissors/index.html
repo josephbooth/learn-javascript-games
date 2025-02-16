@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Game: Rock Paper Scissors</title>
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+	<div id="content-area">
+
+		
+
+		<h2>Computer: <span id="computer-choice">waiting on human...</span></h2>
+		<h2>Human: <span id="user-choice">press a button</span></h2>
+		<h2>Referee: <span id="result">first to 10 wins</span></h2>
+
+		<button id="rock">Rock</button>
+		<button id="paper">Paper</button>
+		<button id="scissors">Scissors</button>
+
+		<p id="message">Computer says: "<span id="taunt">Let's play Rock Paper Scissors</span>"</p>
+
+		<p>Computer Score: <span id="computer-score">0</span></p>
+		<p>Human Score: <span id="user-score">0</span></p>
+
+		<button id="restart" onclick="location.reload()">Restart</button>
+
+	</div>
+
+	<script src="app.js" charset="utf-8"></script>
+
+</body>
+</html>
