@@ -1,0 +1,55 @@
+
+body {
+	background-color: #217025;
+	color: white;
+	font-family: sans-serif, Helvetica;
+}
+
+h3 {
+	font-size: 2.5rem;
+}
+
+#play-area {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.hide {
+	display: none;
+}
+
+.grid {
+	border: 22px solid #d1ce28;
+	border-radius: 20px;
+	height: 684px;
+	width: 798px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	height: 112px;
+	width: 112px;
+	border: 1px solid #d1ce28;
+}
+
+.player-one {
+	background-color: red;
+	border-radius: 56px;
+}
+
+.player-two {
+	background-color: blue;
+	border-radius: 56px;
+}
+
+
+
+
+
+
+
+
+
+
